@@ -9,12 +9,7 @@ body {
     background-position: 0% 0%;
     background-repeat: repeat;
 
-}
-.row .col-lg-4 .intro {
-    -webkit-box-shadow: 0 3px;
-	-webkit-text-stroke: 1px black;
-    box-shadow: 0 5px;
-}
+
 
 .navbar.fixed-top.navbar-expand-lg.navbar-light.bg-light #navbarSupportedContent1 {
     background-color: rgba(234,212,163,1.00);
