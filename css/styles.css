@@ -9,7 +9,12 @@ body {
     background-position: 0% 0%;
     background-repeat: repeat;
 
-
+}
+.row .col-lg-4 .intro {
+    -webkit-box-shadow: 0 3px;
+	-webkit-text-stroke: 1px black;
+    box-shadow: 0 5px;
+}
 
 .navbar.fixed-top.navbar-expand-lg.navbar-light.bg-light #navbarSupportedContent1 {
     background-color: rgba(234,212,163,1.00);
@@ -56,6 +61,8 @@ body {
     font-weight: normal;
     text-align: left;
     text-decoration: none;
+    text-shadow: 2px 2px rgba(7,7,7,1.00);
+    color: rgba(251,243,245,0.97);
 }
 .row .col-lg-4 .intro {
 }
@@ -139,7 +146,9 @@ black;;
     color: rgba(251,245,246,1.00);
     margin-top: -29px;
 }
-.contact {
+.nav-link:hover {
+	background-color: white;
+	border-radius: 0.5rem;
 }
 .container-fluid #Media .container-fluid.contact {
     margin-top: 100px;
@@ -200,4 +209,28 @@ black;;
 .container-fluid.showpics .row .container-fluid.showpics {
     color: rgba(247,249,247,1.00);
     letter-spacing: 2px;
+}
+.dropdown {
+	list-style-type: none;
+    display: none;
+    position: absolute;
+}
+#navbarSupportedContent1 .navbar-nav.mr-auto .contact_list {
+    display: block;
+}
+.unions {
+    color: white;
+    letter-spacing: 2px;
+}
+.container-fluid .unions {
+    color: rgba(251,249,249,1.00);
+	-webkit-text-stroke: 1px black;
+}
+.contact:hover .dropdown {
+	display: block;
+	background: white;
+	align-content: auto;
+	border-radius: .5rem;
+	text-align: left;
+	margin-left: 0;
 }
